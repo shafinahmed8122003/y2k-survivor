@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1731678917 source:d:\works\projects\y2k-survivor\auth-screen.c
+	<stdio.h>
+	"constants.h"
+
+1731685849 source:d:\works\projects\y2k-survivor\main.c
+	<stdio.h>
+	<string.h>
+	<conio.h>
+	"screens.h"
+	"constants.h"
+	"database.h"
+
+1731678731 d:\works\projects\y2k-survivor\screens.h
+	"database.h"
+
+1731661063 d:\works\projects\y2k-survivor\constants.h
+
+1731678540 source:d:\works\projects\y2k-survivor\login-screen.c
+	<stdio.h>
+	"constants.h"
+	"database.h"
+	<string.h>
+
+1731675685 source:d:\works\projects\y2k-survivor\cjson.c
+	<string.h>
+	<stdio.h>
+	<math.h>
+	<stdlib.h>
+	<limits.h>
+	<ctype.h>
+	<float.h>
+	<locale.h>
+	"cJSON.h"
+
+1731675716 d:\works\projects\y2k-survivor\cjson.h
+	<stddef.h>
+
+1731686100 d:\works\projects\y2k-survivor\database.h
+
+1731685804 source:d:\works\projects\y2k-survivor\database.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"cJSON.h"
+
+1731679273 source:d:\works\projects\y2k-survivor\mainmenu-screen.c
+	<stdio.h>
+	"constants.h"
+	"database.h"
+
