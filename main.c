@@ -19,6 +19,10 @@ auth_screen:
         {
             goto login_screen;
         }
+        else if (choice == 1)
+        {
+            goto signup_screen;
+        }
         else
         {
             goto end;
@@ -28,8 +32,9 @@ auth_screen:
 login_screen:
     {
         LoginScreen(db, &user);
-        if (strcmp(user.name, "") != 0) {
-            printf("Welcome!\n");
+        if (strcmp(user.name, "") != 0)
+        {
+            goto mainmenu_screen;
         }
         else
         {
@@ -40,8 +45,21 @@ login_screen:
         }
     }
 
-    // signup_screen:
-    // SignupScreen();
+signup_screen:
+    {
+        SignupScreen(db, &user);
+        if (strcmp(user.name, "") != 0)
+        {
+            goto mainmenu_screen;
+        }
+        else
+        {
+            printf("\nTry something else please! This data already exist!\n");
+            printf("Press enter!\n");
+            getch();
+            goto auth_screen;
+        }
+    }
 
 mainmenu_screen:
     {
@@ -49,6 +67,9 @@ mainmenu_screen:
     }
 
 end:
+    // Free the database memory
+    free_database(&db);
     printf(RESET);
+    printf(CLEAR_SCREEN);
     return 0;
 }

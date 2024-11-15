@@ -1,29 +1,27 @@
 {
-    "users": [
-        {
-            "name": "Shafin Ahmed",
-            "username": "shafin56789",
-            "password": "shafinmedha"
-        },
-        {
-            "name": "Medha",
-            "username": "medha98765",
-            "password": "medha123"
-        },
-        {
-            "name": "Sakib",
-            "username": "sakib12345",
-            "password": "sakib123"
-        },
-        {
-            "name": "Sraboni",
-            "username": "sraboni98765",
-            "password": "sraboni123"
-        },
-        {
-            "name": "Soumi",
-            "username": "soumi7890",
-            "password": "soumi123"
-        }
-    ]
+	"users":	[{
+			"name":	"Shafin Ahmed",
+			"username":	"shafin56789",
+			"password":	"shafinmedha"
+		}, {
+			"name":	"Medha",
+			"username":	"medha98765",
+			"password":	"medha123"
+		}, {
+			"name":	"Sakib",
+			"username":	"sakib12345",
+			"password":	"sakib123"
+		}, {
+			"name":	"Sraboni",
+			"username":	"sraboni98765",
+			"password":	"sraboni123"
+		}, {
+			"name":	"Soumi",
+			"username":	"soumi7890",
+			"password":	"soumi123"
+		}, {
+			"name":	"Bishal",
+			"username":	"bishal234",
+			"password":	"bishal234"
+		}]
 }

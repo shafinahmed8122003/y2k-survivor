@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1731678917 source:d:\works\projects\y2k-survivor\auth-screen.c
+1731690623 source:d:\works\projects\y2k-survivor\auth-screen.c
 	<stdio.h>
 	"constants.h"
 
-1731685849 source:d:\works\projects\y2k-survivor\main.c
+1731691653 source:d:\works\projects\y2k-survivor\main.c
 	<stdio.h>
 	<string.h>
 	<conio.h>
@@ -11,12 +11,12 @@
 	"constants.h"
 	"database.h"
 
-1731678731 d:\works\projects\y2k-survivor\screens.h
+1731690915 d:\works\projects\y2k-survivor\screens.h
 	"database.h"
 
 1731661063 d:\works\projects\y2k-survivor\constants.h
 
-1731678540 source:d:\works\projects\y2k-survivor\login-screen.c
+1731690951 source:d:\works\projects\y2k-survivor\login-screen.c
 	<stdio.h>
 	"constants.h"
 	"database.h"
@@ -36,9 +36,9 @@
 1731675716 d:\works\projects\y2k-survivor\cjson.h
 	<stddef.h>
 
-1731686100 d:\works\projects\y2k-survivor\database.h
+1731691019 d:\works\projects\y2k-survivor\database.h
 
-1731685804 source:d:\works\projects\y2k-survivor\database.c
+1731688261 source:d:\works\projects\y2k-survivor\database.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -48,4 +48,10 @@
 	<stdio.h>
 	"constants.h"
 	"database.h"
+
+1731691722 source:d:\works\projects\y2k-survivor\signup-screen.c
+	<stdio.h>
+	"database.h"
+	"constants.h"
+	<string.h>
 

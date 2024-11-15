@@ -5,8 +5,8 @@
 
 void LoginScreen(Database db, User *user)
 {
-    char username[20];
-    char password[20];
+    char username[50];
+    char password[50];
 
     printf(CLEAR_SCREEN);
     printf("Welcome Back\n");
